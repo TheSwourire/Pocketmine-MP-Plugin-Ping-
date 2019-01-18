@@ -1,0 +1,19 @@
+#name, main, version and api are required
+name: Pinger
+main: Pinger\Main
+version: 1.1.0
+api: 3.0.0
+
+author: Swourire
+commands:
+ ping:
+  description:  Check your ping !
+  usage: "/ping"
+  permission: ping.perm
+  default: yes
+
+  pings:
+    description:  Check others ping !
+  usage: "/pings"
+  permission: ping.perm
+  default: yes
